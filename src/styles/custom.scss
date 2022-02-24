@@ -1,0 +1,66 @@
+.container {
+    width: 1128px;
+    margin: auto;
+}
+.progressBar {
+    background-image: url(/bg-progressBar.png);
+    background-size: cover;
+}
+.slick-slide {
+    max-width: 357px;
+    padding: 0 10px 0 10px;
+}
+.footer {
+    background-image: url(/bg-footer.png);
+    background-size: cover;
+}
+.intro {
+    background-image: url(/bg-intro.png);
+    background-size: cover;
+    border-radius: 48px;
+    margin: 0 2rem 0 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.About {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(233, 203, 207));
+    border-radius: 48px;
+    margin: 0 2rem 0 2rem;
+}
+.About_mobile {
+    
+    border-radius: 48px;
+    margin: 0 2rem 0 2rem;
+}
+.icon_header2 {
+    display: none;
+}
+.banner_stickyUp{
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.property_stickyUp{
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.introRight_stickyUp{
+    animation-name: bounceInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.introLeft_stickyUp{
+    animation-name: bounceInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.roadmap_stickyUp{
+    animation-name: bounceInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.about_stickyUp{
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}

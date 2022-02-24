@@ -2,19 +2,36 @@
   "name": "casper",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://duydai24.github.io/cesper/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "gh-pages": "^3.2.3",
+    "helmet": "^5.0.2",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "install": "^0.13.0",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "tailwindcss-selection-variant": "^0.1.0"
   }
 }
